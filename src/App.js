@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Showcase from './components/showcase-section/Showcase';
+import FindMentor from './components/find-mentor-section/FindMentor';
+import JoinSection from './components/join-mentorkart/JoinSection';
+import ProgramsSection from './components/programs/ProgramsSection';
+import TestimonialSection from './components/testimonials/TestimonialSection';
+import PartnersSection from './components/partners/PartnersSection';
+import NewsSection from './components/news/NewsSection';
+import BlogsSection from './components/blogs/BlogsSection';
+import Footer from './components/footer/Footer';
 
+import { Container } from 'react-bootstrap';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Showcase />
+        <Container>
+          <FindMentor />
+          <JoinSection />
+          <ProgramsSection />
+          <PartnersSection />
+          <TestimonialSection />
+          <NewsSection />
+          <BlogsSection />
+        </Container>
+        <Footer />
+      </Router>
     </div>
   );
 }

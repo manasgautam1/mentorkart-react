@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1050px) {
+  .showcase {
+    height: 60vh;
+  }
+  .showcase-image {
+    height: 60vh;
+  }
+  .showcase-content {
+    width: 70vw;
+    height: 70vh;
+  }
+  .showcase-content .showcase-form {
+    width: 90%;
+  }
+  .showcase-mentor-card-top {
+    padding: 2rem;
+  }
+
+  .find-mentor h1,
+  .join-section h1,
+  .programs-section h1,
+  .testimonial-section h1,
+  .partners-section h1,
+  .news-section h1,
+  .blogs-section h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .find-mentor > p,
+  .join-section > p,
+  .programs-section > p {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .join-section > p {
+    margin-bottom: 0.75rem;
+  }
+  .find-mentor .mentor-card img {
+    width: 120px;
+    height: 120px;
+  }
+  .find-mentor .mentor-card .mentor-card-btn {
+    font-size: 0.65rem;
+  }
+  .find-mentor .mentor-card .mentor-card-btn.active {
+    transform: scale(1.1);
+  }
+  .join-section .join-card .signup-btn {
+    margin: 0;
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    width: 140px;
+  }
+  .join-section .ad-card {
+    height: 250px !important;
+    min-width: 250px;
+  }
+
+  .footer .img {
+    background: #fff;
+    border-bottom-right-radius: 65px;
+    border-top-right-radius: 65px;
+    width: 80%;
+    position: relative;
+    left: -1rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .blogs-section .blogs-container {
+    min-width: 300px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    border-radius: 40px;
+    padding: 1rem;
+  }
+  .footer .left p {
+    margin-top: 120px;
+    font-size: 1.2rem;
+  }
+  .footer .right .socials {
+    margin: 1rem auto 0;
+  }
+}

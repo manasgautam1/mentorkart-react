@@ -1,0 +1,252 @@
+@media only screen and (max-width: 600px) {
+  .my-navbar {
+    padding-top: 0;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbar {
+    padding-bottom: 0;
+  }
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+  .my-navbar .main-icon {
+    height: 80%;
+    width: 80%;
+  }
+  .navbar-link {
+    border-bottom: 1px solid #b5b5b5;
+  }
+  .showcase .swiper-container {
+    height: 120%;
+  }
+  .showcase .swiper-pagination-fraction,
+  .showcase .swiper-pagination-custom,
+  .showcase .swiper-container-horizontal > .swiper-pagination-bullets {
+    margin-bottom: 60px;
+  }
+  .showcase {
+    height: 200px;
+    margin-top: 10vh;
+  }
+  .showcase-image {
+    width: 100%;
+    height: 200px;
+  }
+  .showcase-content {
+    width: 100%;
+    top: 75px;
+    left: 0px;
+    text-align: center;
+  }
+  .showcase-content h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+  }
+  .showcase-content .showcase-form {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 1rem;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 18%);
+  }
+  .showcase-content .showcase-form input.showcase-input {
+    width: 60%;
+    padding: 0.7rem 1rem;
+    font-size: 0.85rem;
+  }
+  .showcase-content .showcase-form input.showcase-input::placeholder {
+    font-size: 0.85rem;
+  }
+  .showcase-content .showcase-form .showcase-btn {
+    font-size: 0.75rem;
+    padding-top: 0;
+  }
+
+  .facility-img {
+    width: 60px;
+    height: 60px;
+  }
+  .facility-text {
+    font-size: 0.65rem;
+    line-height: 1rem;
+    width: auto;
+  }
+  .showcase-mentor-card-top {
+    height: 60px;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .showcase-mentor-card-top img {
+    width: 30px;
+    height: 30px;
+  }
+  .showcase-mentor-card-top p {
+    font-size: 0.65rem;
+  }
+  .showcase-mentor-card-top h2 {
+    font-weight: 800 importn !important;
+    margin-top: 0.35rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .showcase-mentor-card-bottom {
+    height: 50px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    font-weight: 500;
+    margin-top: -28px;
+    padding-top: 22px;
+  }
+  .showcase-mentor-card-top .bg-img {
+    height: 100px;
+    width: 120px;
+  }
+  .showcase-mentor-card-bottom .show-in-mobile {
+    display: inline-block;
+  }
+  .showcase-mentor-card-bottom .show-in-desktop {
+    display: none;
+  }
+
+  .find-mentor h1,
+  .join-section h1,
+  .programs-section h1,
+  .testimonial-section h1,
+  .partners-section h1,
+  .news-section h1,
+  .blogs-section h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .find-mentor > p,
+  .join-section > p,
+  .programs-section > p {
+    font-weight: 300;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .find-mentor .mentor-card {
+    position: relative;
+    margin-top: 50px;
+  }
+  .find-mentor .mentor-card img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+  }
+  .find-mentor .mentor-card .mentor-card-content {
+    text-align: center;
+    margin-top: 2.2rem;
+  }
+  .mentor-cards .swiper-container {
+    height: 360px;
+  }
+  .find-mentor .view-all-btn,
+  .join-section .join-card .signup-btn {
+    line-height: 1.55rem;
+    font-size: 1rem;
+    width: 120px;
+  }
+
+  .find-mentor .mentor-card div h2 {
+    font-size: 1.75rem;
+  }
+
+  .join-section .join-card {
+    position: relative;
+    margin-bottom: 2rem !important;
+    border-radius: 20px;
+  }
+  .join-section .two .join-card span {
+    font-size: 1rem !important;
+  }
+  .join-section .two .join-card h2 {
+    font-size: 1.25rem !important;
+    font-weight: 600;
+  }
+  .join-section .two .join-card .signup-btn {
+    font-size: 0.85rem !important;
+    width: 70%;
+    padding: 0.25rem 0.8rem;
+    margin: auto;
+    margin-left: 0.5rem;
+  }
+  .join-section .join-card .signup-btn {
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    margin-top: 0.4rem;
+    margin-left: 0.65rem;
+  }
+  .join-section .join-cards .row .col-6 .join-card {
+    padding: 1rem !important;
+  }
+
+  .programs-section .program-container {
+    height: 220px;
+    background: linear-gradient(281.79deg, #ff4d4d -5.33%, #ff8787 102.53%);
+    border-radius: 30px;
+    position: relative;
+  }
+  .programs-cards .swiper-container {
+    height: 220px;
+  }
+  .programs-cards .swiper-container .program-container {
+    height: 180px;
+  }
+
+  .programs-section .program-container .bg-2 {
+    position: absolute;
+    right: 0;
+  }
+  .programs-section .program-container .bg-1 {
+    width: 120px;
+  }
+  .programs-section .program-container h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    vertical-align: center;
+  }
+  .partners-section .d-flex,
+  .news-section .d-flex {
+    margin-top: -1rem;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    border-radius: 40px;
+    padding: 1rem;
+  }
+  .footer .left p {
+    margin-top: 120px;
+    font-size: 1.2rem;
+  }
+  .footer .right .socials {
+    margin: 1rem auto 0;
+  }
+  .blogs-section .more-articles-btn {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0rem auto 0.5rem;
+    border-radius: 35px;
+  }
+  .blogs-section .blogs-container .header .icon {
+    height: 40px;
+    width: 40px;
+  }
+}
