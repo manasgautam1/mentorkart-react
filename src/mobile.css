@@ -42,9 +42,9 @@
     text-align: center;
   }
   .showcase-content h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.75rem;
-    font-weight: 700;
+    font-weight: 500;
   }
   .showcase-content .showcase-form {
     width: 90%;
@@ -161,10 +161,16 @@
     font-size: 1.75rem;
   }
 
+  .join-section .join-cards {
+    margin-top: -1rem;
+  }
   .join-section .join-card {
     position: relative;
     margin-bottom: 2rem !important;
     border-radius: 20px;
+  }
+  .join-section .two {
+    margin-top: -1rem;
   }
   .join-section .two .join-card span {
     font-size: 1rem !important;
@@ -197,6 +203,9 @@
     border-radius: 30px;
     position: relative;
   }
+  .programs-section .programs-cards {
+    margin-top: -1rem;
+  }
   .programs-cards .swiper-container {
     height: 220px;
   }
@@ -223,22 +232,49 @@
   }
   .footer {
     text-align: center;
+    margin-bottom: 0.5rem !important;
   }
   .footer .img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
-    border-radius: 40px;
-    padding: 1rem;
+    border-radius: 30px;
+    padding: 0.5rem;
+  }
+
+  .footer .img img {
+    width: 40px;
+    height: 40px;
   }
   .footer .left p {
-    margin-top: 120px;
-    font-size: 1.2rem;
+    margin-top: 65px;
+    font-size: 1rem;
+  }
+  .footer .center {
+    margin-top: 0.5rem !important;
+  }
+  .footer .center ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .footer .right h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 0;
+  }
+  .footer .right span {
+    font-size: 0.95rem;
   }
   .footer .right .socials {
-    margin: 1rem auto 0;
+    margin: 0.5rem auto 0;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
   }
+
   .blogs-section .more-articles-btn {
     font-size: 1rem;
     font-weight: 500;
@@ -248,5 +284,14 @@
   .blogs-section .blogs-container .header .icon {
     height: 40px;
     width: 40px;
+  }
+  .blogs-section > .row {
+    margin-top: -1.5rem;
+  }
+  .partners-img {
+    max-width: 130px;
+  }
+  .testimonial-section .testimonial-card {
+    margin-top: -0.75rem;
   }
 }

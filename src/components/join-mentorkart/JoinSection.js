@@ -35,7 +35,7 @@ const JoinSection = () => {
       </div>
       <div className='ads-cards'>
         <Swiper
-          spaceBetween={0}
+          spaceBetween={40}
           slidesPerView={1}
           autoplay={{ autoplay: true, delay: 5000 }}
           breakpoints={{
