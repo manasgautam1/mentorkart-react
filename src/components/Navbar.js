@@ -10,9 +10,9 @@ const MyNavbar = () => {
             <img
               src='/images/main-icon-2.png'
               alt=''
-              width='90px'
-              height='70px'
-              className='main-icon'
+              width='75px'
+              height='45px'
+              className=''
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbarScroll' />
