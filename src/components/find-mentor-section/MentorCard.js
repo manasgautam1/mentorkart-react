@@ -3,8 +3,8 @@ import MentorCardButtons from './MentorCardButtons';
 
 const MentorCard = () => {
   return (
-    <div className=' col-lg-12 mt-4 px-xl-5 px-3'>
-      <div className='mentor-card p-4 d-flex align-items-center'>
+    <div className=' col-lg-12 mt-4 px-xl-0 px-3 mx-xl-2'>
+      <div className='mentor-card px-4 py-4 d-flex align-items-center'>
         <img src='images/mentor-img.png' alt='' />
         <div className='ms-lg-4 mentor-card-content ms-3'>
           <h2>Deb thes.</h2>

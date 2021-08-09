@@ -15,15 +15,15 @@ SwiperCore.use([Pagination, A11y, Autoplay]);
 
 const FindMentor = () => {
   return (
-    <div className='pt-xl-2 pt-md-5 pt-3 find-mentor'>
+    <div className='pt-xl-2 pt-md-5 pt-4 find-mentor px-md-0 px-2'>
       <h1>Find a Mentor</h1>
       <p>We have Hundreds of Mentors at Affordable price</p>
-      <div className='mentor-cards row'>
+      <div className='mentor-cards row px-xl-5'>
         <Swiper
-          spaceBetween={0}
+          spaceBetween={60}
           slidesPerView={1}
           pagination={{ clickable: true }}
-          autoplay={{ autoplay: true, delay: 5000 }}
+          autoplay={{ autoplay: true, delay: 10000 }}
           breakpoints={{
             // when window width is >= 0px
             0: {
@@ -31,10 +31,16 @@ const FindMentor = () => {
             },
             // when window width is >= 1000px
             1000: {
-              slidesPerView: 2,
+              slidesPerView: 2.2,
             },
           }}
         >
+          <SwiperSlide>
+            <MentorCard />
+          </SwiperSlide>
+          <SwiperSlide>
+            <MentorCard />
+          </SwiperSlide>
           <SwiperSlide>
             <MentorCard />
           </SwiperSlide>

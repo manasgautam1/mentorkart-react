@@ -15,10 +15,10 @@ SwiperCore.use([A11y, Autoplay]);
 
 const JoinSection = () => {
   return (
-    <div className='mt-xl-4 mt-lg-5 mt-0 join-section pt-lg-5'>
-      <h1 className='mb-0'>Join Mentorkart</h1>
+    <div className='mt-xl-4 mt-lg-5 mt-5 join-section pt-lg-5 px-md-0 px-2'>
+      <h1>Join Mentorkart</h1>
       <p>We have Numerous Solutions for you</p>
-      <div className='join-cards row'>
+      <div className='join-cards row mt-4 px-xl-4'>
         <div className='col-lg-4 one'>
           <JoinCard title='Individual' />
         </div>
@@ -33,7 +33,7 @@ const JoinSection = () => {
           </div>
         </div>
       </div>
-      <div className='ads-cards'>
+      <div className='ads-cards px-xl-4'>
         <Swiper
           spaceBetween={40}
           slidesPerView={1}

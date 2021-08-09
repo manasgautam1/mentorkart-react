@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    min-height: 8vh;
   }
   .navbar {
     padding-bottom: 0;
@@ -29,7 +30,7 @@
   }
   .showcase {
     height: 200px;
-    margin-top: 10vh;
+    margin-top: 8vh;
   }
   .showcase-image {
     width: 100%;
@@ -153,7 +154,7 @@
   .find-mentor .view-all-btn,
   .join-section .join-card .signup-btn {
     line-height: 1.55rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 120px;
   }
 
@@ -176,11 +177,11 @@
     font-size: 1rem !important;
   }
   .join-section .two .join-card h2 {
-    font-size: 1.25rem !important;
+    font-size: 1.1rem !important;
     font-weight: 600;
   }
   .join-section .two .join-card .signup-btn {
-    font-size: 0.85rem !important;
+    font-size: 0.65rem !important;
     width: 70%;
     padding: 0.25rem 0.8rem;
     margin: auto;
@@ -232,7 +233,7 @@
   }
   .footer {
     text-align: center;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0rem !important;
   }
   .footer .img {
     position: absolute;
@@ -252,7 +253,8 @@
     font-size: 1rem;
   }
   .footer .center {
-    margin-top: 0.5rem !important;
+    text-align: left;
+    margin: 0.75rem 0 !important;
   }
   .footer .center ul li {
     list-style: none;
@@ -278,6 +280,7 @@
   .blogs-section .more-articles-btn {
     font-size: 1rem;
     font-weight: 500;
+    margin-top: -1rem;
     margin: 0rem auto 0.5rem;
     border-radius: 35px;
   }
@@ -293,5 +296,17 @@
   }
   .testimonial-section .testimonial-card {
     margin-top: -0.75rem;
+  }
+
+  .partners-section,
+  .news-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .partners-img img {
+    /* margin: 1px !important; */
+    /* width: -webkit-fill-available; */
+    max-width: 75%;
+    /* padding: 5px; */
   }
 }

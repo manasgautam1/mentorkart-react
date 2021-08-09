@@ -6,10 +6,12 @@ const Blogs = (props) => {
       <div className='blogs-container'>
         <div className='header'>
           <img src='/images/blogs-bg.png' alt='' className='main-img' />
-          <img src='/images/main-icon.png' alt='' className='icon' />
+          <div className='icon'>
+            <img src='/images/main-icon.png' alt='' />
+          </div>
           <div className='type'>{props.type}</div>
         </div>
-        <div className='content p-4'>
+        <div className='content p-4 pt-3'>
           <div className='head'>
             <span className='date'>{props.date}</span>
             <span className='likes'>{props.views} likes</span>

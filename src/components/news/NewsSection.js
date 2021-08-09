@@ -17,9 +17,9 @@ const NewsSection = () => {
   return (
     <div className='news-section pt-lg-5 pt-4 mt-xl-0 mt-lg-5'>
       <h1>In News</h1>
-      <div className='d-flex justify-content-around'>
+      <div className='mt-md-4 mt-3 text-center'>
         <Swiper
-          spaceBetween={50}
+          spaceBetween={0}
           slidesPerView={1}
           breakpoints={{
             // when window width is >= 0px
@@ -30,11 +30,11 @@ const NewsSection = () => {
             // when window width is >= 1000px
             600: {
               slidesPerView: 3,
-              spaceBetween: 25,
+              spaceBetween: 0,
             },
             1000: {
               slidesPerView: 5,
-              spaceBetween: 50,
+              spaceBetween: 0,
             },
           }}
         >

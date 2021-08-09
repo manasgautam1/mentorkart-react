@@ -28,7 +28,7 @@ const Showcase = () => {
           spaceBetween={0}
           slidesPerView={1}
           pagination={{ clickable: true }}
-          autoplay={{ autoplay: true, delay: 2000 }}
+          autoplay={{ autoplay: true, delay: 8000 }}
         >
           <SwiperSlide>
             <div className='showcase-container'>
@@ -120,14 +120,16 @@ const Showcase = () => {
         </Swiper>
       </div>
       <Container>
-        <Row>
-          <Col xs={12} md={{ order: 'last' }}>
-            <ShowcaseMentorCard />
-          </Col>
-          <Col xs={12} md={{ order: 'first' }}>
-            <Facilities />
-          </Col>
-        </Row>
+        <div className='px-md-0 px-2'>
+          <Row>
+            <Col xs={12} md={{ order: 'last' }}>
+              <ShowcaseMentorCard />
+            </Col>
+            <Col xs={12} md={{ order: 'first' }}>
+              <Facilities />
+            </Col>
+          </Row>
+        </div>
       </Container>
     </>
   );

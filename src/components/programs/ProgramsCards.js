@@ -14,9 +14,9 @@ SwiperCore.use([Pagination, A11y, Autoplay]);
 
 const ProgramsCards = () => {
   return (
-    <div className='programsCard mt-4'>
+    <div className='programsCard'>
       <Swiper
-        spaceBetween={100}
+        spaceBetween={60}
         slidesPerView={1}
         pagination={{ clickable: true }}
         autoplay={{ autoplay: true, delay: 5000 }}
@@ -24,6 +24,7 @@ const ProgramsCards = () => {
           // when window width is >= 0px
           0: {
             slidesPerView: 1,
+            spaceBetween: 0,
           },
           // when window width is >= 1000px
           1100: {

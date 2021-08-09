@@ -15,9 +15,9 @@ SwiperCore.use([Pagination, A11y, Autoplay]);
 
 const BlogsSection = () => {
   return (
-    <div className='blogs-section pt-lg-5 pt-4 mt-xl-0 mt-lg-5'>
+    <div className='blogs-section pt-lg-5 pt-5 mt-xl-0 mt-lg-5'>
       <h1>Blogs</h1>
-      <div className='row'>
+      <div className='row mt-md-4 mt-0 mx-xl-4'>
         <Swiper
           spaceBetween={0}
           slidesPerView={1}
@@ -34,19 +34,10 @@ const BlogsSection = () => {
             // when window width is >= 1000px
             1100: {
               slidesPerView: 3,
+              spaceBetween: 0,
             },
           }}
         >
-          <SwiperSlide>
-            <Blogs
-              date='8 January 2021'
-              type='Group therapy'
-              views='120'
-              comment='1'
-              title='The pros and cons of group psychotherapy'
-              content='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Sunt in similique  culpa qui officia deserunt.'
-            />
-          </SwiperSlide>
           <SwiperSlide>
             <Blogs
               date='28 January 2021'
@@ -54,6 +45,16 @@ const BlogsSection = () => {
               views='120'
               comment='1'
               title='Top seven challenges in counselling children'
+              content='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Sunt in similique  culpa qui officia deserunt.'
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Blogs
+              date='18 January 2021'
+              type='Group therapy'
+              views='120'
+              comment='1'
+              title='The pros and cons of group psychotherapy'
               content='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Sunt in similique  culpa qui officia deserunt.'
             />
           </SwiperSlide>

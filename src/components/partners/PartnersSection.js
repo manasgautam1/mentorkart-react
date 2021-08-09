@@ -15,11 +15,11 @@ SwiperCore.use([Pagination, A11y, Autoplay]);
 
 const PartnersSection = () => {
   return (
-    <div className='partners-section pt-lg-5 pt-4 mt-xl-0 mt-lg-5'>
+    <div className='partners-section pt-lg-5 pt-5 mt-xl-0 mt-lg-5'>
       <h1>In Partnership with</h1>
-      <div className='d-flex justify-content-around'>
+      <div className='mt-md-4 mt-3 text-center'>
         <Swiper
-          spaceBetween={50}
+          spaceBetween={0}
           slidesPerView={1}
           breakpoints={{
             // when window width is >= 0px
@@ -30,11 +30,11 @@ const PartnersSection = () => {
             // when window width is >= 1000px
             600: {
               slidesPerView: 3,
-              spaceBetween: 25,
+              spaceBetween: 0,
             },
             1000: {
               slidesPerView: 5,
-              spaceBetween: 50,
+              spaceBetween: 0,
             },
           }}
         >
