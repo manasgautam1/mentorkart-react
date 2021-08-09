@@ -429,9 +429,7 @@ body {
 }
 
 /* BLOGS SECTION */
-.blogs-section .blogs-container {
-  min-width: 380px;
-}
+
 .blogs-section .blogs-container .content {
   border: 1.25px solid rgba(0, 0, 0, 0.44);
   box-shadow: 0px 9.96994px 37.3873px rgba(43, 171, 160, 0.07);

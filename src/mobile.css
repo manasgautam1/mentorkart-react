@@ -301,12 +301,15 @@
   .partners-section,
   .news-section {
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
+  }
+  .partners-img {
+    text-align: center;
   }
   .partners-img img {
-    /* margin: 1px !important; */
-    /* width: -webkit-fill-available; */
     max-width: 75%;
-    /* padding: 5px; */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

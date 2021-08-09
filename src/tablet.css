@@ -61,22 +61,20 @@
 
   .footer .img {
     background: #fff;
-    border-bottom-right-radius: 65px;
-    border-top-right-radius: 65px;
-    width: 80%;
-    position: relative;
-    left: -1rem;
-    padding-left: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-bottom: 1.25rem;
+    border-radius: 65px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+  .footer .img img {
+    width: 60px;
+    height: 60px;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .blogs-section .blogs-container {
-    min-width: 300px;
-  }
   .footer {
     text-align: center;
   }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = (props) => {
   return (
-    <div className='col-md-4 p-4'>
+    <div className='p-4'>
       <div className='blogs-container'>
         <div className='header'>
           <img src='/images/blogs-bg.png' alt='' className='main-img' />
