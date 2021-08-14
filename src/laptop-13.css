@@ -5,6 +5,20 @@
   .join-section .ad-card {
     min-width: 290px;
   }
+  .my-navbar {
+    height: 9vh;
+  }
+  .showcase-content h3 {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+  .showcase-content .showcase-form {
+    margin-top: 0.5rem;
+  }
+  .showcase-content .showcase-form input.showcase-input {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+  }
   .find-mentor .mentor-card img {
     height: 150px;
     width: 150px;
@@ -38,11 +52,15 @@
     }
     .showcase-content {
       padding: 0 1.5rem;
-      height: 65vh;
+      height: 70vh;
     }
     .showcase-image,
     .showcase {
-      height: 65vh;
+      height: 70vh;
+    }
+
+    .my-navbar .container {
+      padding: 0 1.5rem;
     }
     .testimonial-card {
       padding: 2.5rem 2rem 1.5rem 2rem !important;

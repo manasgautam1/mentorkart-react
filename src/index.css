@@ -323,12 +323,13 @@ body {
 }
 .join-container .vector-1 {
   position: absolute;
-
+  opacity: 0.75;
   top: -9%;
   left: 0;
 }
 .join-container .vector-2 {
   position: absolute;
+  opacity: 0.75;
   right: 0;
   top: -16%;
 }

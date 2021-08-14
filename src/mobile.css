@@ -166,6 +166,18 @@
     font-size: 1.75rem;
   }
 
+  .join-container .vector-1 {
+    position: absolute;
+    display: none;
+    top: -9%;
+    left: 0;
+  }
+  .join-container .vector-2 {
+    position: absolute;
+    display: none;
+    right: 0;
+    top: -16%;
+  }
   .join-section .join-cards {
     margin-top: -1rem;
   }
