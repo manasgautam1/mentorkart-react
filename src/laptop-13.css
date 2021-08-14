@@ -29,6 +29,21 @@
   }
 
   @media (min-width: 1050px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+      max-width: 1250px !important;
+    }
+    .showcase-content {
+      padding: 0 1.5rem;
+      height: 65vh;
+    }
+    .showcase-image,
+    .showcase {
+      height: 65vh;
+    }
     .testimonial-card {
       padding: 2.5rem 2rem 1.5rem 2rem !important;
     }

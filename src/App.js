@@ -17,7 +17,15 @@ function App() {
         <Showcase />
         <Container>
           <FindMentor />
-          <JoinSection />
+        </Container>
+        <div className='join-container'>
+          <img src='/images/vector-1.png' alt='' className='vector-1' />
+          <img src='/images/vector-2.png' alt='' className='vector-2' />
+          <Container>
+            <JoinSection />
+          </Container>
+        </div>
+        <Container>
           <ProgramsSection />
           <PartnersSection />
           <TestimonialSection />
