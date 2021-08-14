@@ -27,4 +27,10 @@
   .blogs-section .blogs-container .main-img {
     height: 200px;
   }
+
+  @media (min-width: 1050px) {
+    .testimonial-card {
+      padding: 2.5rem 2rem 1.5rem 2rem !important;
+    }
+  }
 }
