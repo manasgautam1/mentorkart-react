@@ -582,16 +582,3 @@ body {
   border-radius: 30px;
   font-size: 1.2rem;
 }
-
-@media (max-width: 1330px) {
-  .showcase-content .showcase-form {
-    width: 70%;
-  }
-  .join-section .ad-card {
-    min-width: 290px;
-  }
-  .find-mentor .mentor-card img {
-    height: 150px;
-    width: 150px;
-  }
-}

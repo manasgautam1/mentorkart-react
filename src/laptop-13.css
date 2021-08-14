@@ -1,0 +1,32 @@
+@media (max-width: 1330px) {
+  .showcase-content .showcase-form {
+    width: 70%;
+  }
+  .join-section .ad-card {
+    min-width: 290px;
+  }
+  .find-mentor .mentor-card img {
+    height: 150px;
+    width: 150px;
+  }
+  /* PROGRAMS SECTION  */
+  .programs-section .program-container,
+  .programs-cards .swiper-container {
+    height: 370px;
+  }
+  .programs-cards .swiper-container .program-container {
+    height: 320px;
+  }
+  .programs-section .program-container h1 {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  /* BLOGS SECTION */
+  .blogs-section .blogs-container .header {
+    height: 210px;
+  }
+  .blogs-section .blogs-container .main-img {
+    height: 210px;
+  }
+}
