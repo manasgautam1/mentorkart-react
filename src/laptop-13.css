@@ -1,4 +1,7 @@
 @media (max-width: 1400px) {
+  .navbar img {
+    max-width: 80%;
+  }
   .showcase-content .showcase-form {
     width: 70%;
   }
@@ -7,6 +10,10 @@
   }
   .my-navbar {
     height: 9vh;
+  }
+  .facilities {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0 !important;
   }
   .facility {
     transform: scale(0.85);
