@@ -236,6 +236,13 @@
   .news-section .d-flex {
     margin-top: -1rem;
   }
+
+  .testimonial-section .swiper-container {
+    min-height: 290px;
+  }
+  .testimonial-section .swiper-container .testimonial-card {
+    height: 200px;
+  }
   .footer {
     padding: 2rem 1rem !important;
     text-align: center;

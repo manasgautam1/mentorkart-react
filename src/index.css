@@ -429,10 +429,10 @@ body {
   opacity: 0.8;
 }
 .testimonial-section .swiper-container {
-  height: 310px;
+  min-height: 310px;
 }
 .testimonial-section .swiper-container .testimonial-card {
-  height: 240px;
+  min-height: 240px;
 }
 
 /* BLOGS SECTION */
