@@ -79,9 +79,9 @@
     text-align: center;
   }
   .footer .img {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
     width: 50%;
     border-radius: 40px;
     padding: 1rem;

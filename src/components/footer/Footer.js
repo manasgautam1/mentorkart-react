@@ -5,20 +5,16 @@ const Footer = () => {
   return (
     <div className='footer py-4 pb-4 my-5 mb-0'>
       <Container>
-        <div className='row'>
-          <div className='col-lg-3 left'>
+        <div className='row px-md-0 px-2'>
+          <div className='col-lg-3 left mb-md-0 mb-3'>
             <div className='img'>
               <img src='/images/main-icon.png' alt='' />
             </div>
-            <p className='ps-lg-4 mb-0'>
-              &copy; 2021 MentorKart is Registered Trademark of DGguru Learning
-              Solutions Pvt. Ltd
-            </p>
           </div>
           <div className='col-lg-5 center mt-lg-0 mt-4'>
             <div className='row'>
-              <div className='col-6 d-flex flex-column justify-content-start align-items-center'>
-                <ul>
+              <div className='col-6 d-flex flex-column justify-content-start'>
+                <ul className='ps-0'>
                   <li>
                     <Link to='#about'>About</Link>
                   </li>
@@ -34,7 +30,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className='col-6  d-flex flex-column justify-content-around'>
-                <ul>
+                <ul className='ps-0'>
                   <li>
                     <Link to='#privacy-policy'>Privacy Policy</Link>
                   </li>
@@ -72,6 +68,12 @@ const Footer = () => {
               </Link>
             </div>
           </div>
+        </div>
+        <div className='row copyright'>
+          <p className='ps-lg-4 mb-0'>
+            &copy; 2021 MentorKart is Registered Trademark of DGguru Learning
+            Solutions Pvt. Ltd
+          </p>
         </div>
       </Container>
     </div>

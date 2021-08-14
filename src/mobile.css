@@ -124,7 +124,7 @@
   .partners-section h1,
   .news-section h1,
   .blogs-section h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
   }
@@ -240,11 +240,6 @@
     margin-bottom: 0rem !important;
   }
   .footer .img {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
-    border-radius: 30px;
     padding: 0.5rem;
   }
 
@@ -254,7 +249,7 @@
   }
   .footer .left p {
     margin-top: 65px;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .footer .center {
     text-align: left;
@@ -263,22 +258,22 @@
   .footer .center ul li {
     list-style: none;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .footer .right h2 {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     margin-top: -1rem;
     margin-bottom: 0;
   }
   .footer .right span {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
   .footer .right .socials {
     margin: 0.5rem auto 0;
     padding: 0.5rem;
     border-radius: 20px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .blogs-section .more-articles-btn {

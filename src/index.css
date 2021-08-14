@@ -361,7 +361,7 @@ body {
 .programs-section .program-container {
   height: 400px;
   background: linear-gradient(281.79deg, #ff4d4d -5.33%, #ff8787 102.53%);
-  border-radius: 70px;
+  border-radius: 50px;
   position: relative;
 }
 .programs-cards .swiper-container {
@@ -520,31 +520,42 @@ body {
 /* FOOTER  */
 .footer {
   width: 100%;
-  margin: auto;
+  padding: 4rem 0rem 3rem 0rem !important;
   background: #f86d6c;
   /* border-radius: 40px; */
   color: #fff;
 }
+
 .footer .img {
   background: #fff;
-  border-radius: 65px;
-  width: 50%;
+  border-radius: 15px;
+  width: 78px;
+  height: 78px;
+  display: flex;
   margin: 0 auto;
   margin-bottom: 1.25rem;
   text-align: center;
-  padding: 0.5rem 0;
+  justify-content: center;
 }
 .footer .img img {
-  width: 60px;
-  height: 60px;
+  width: inherit;
+  padding: 0.5rem !important;
+  /* height: max-content; */
+  align-self: center;
 }
-.footer .left p {
+/* .footer .left p {
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 1.25rem;
   text-align: center;
+} */
+.copyright {
+  padding-top: 3rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
 }
-
 .footer .center ul li {
   list-style: none;
   font-weight: 400;
@@ -570,4 +581,17 @@ body {
   margin: 1rem 0;
   border-radius: 30px;
   font-size: 1.2rem;
+}
+
+@media (max-width: 1330px) {
+  .showcase-content .showcase-form {
+    width: 70%;
+  }
+  .join-section .ad-card {
+    min-width: 290px;
+  }
+  .find-mentor .mentor-card img {
+    height: 150px;
+    width: 150px;
+  }
 }
