@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer py-4 pb-4 my-5 mb-0'>
       <Container>
         <div className='row px-md-0 px-2'>
-          <div className='col-lg-3 left mb-md-0 mb-3'>
+          <div className='col-lg-3 left'>
             <div className='img'>
               <img src='/images/main-icon.png' alt='' />
             </div>

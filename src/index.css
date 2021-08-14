@@ -202,7 +202,8 @@ body {
   opacity: 0.2 !important;
 }
 .mentor-cards .swiper-pagination-bullet-active,
-.programs-cards .swiper-pagination-bullet-active {
+.programs-cards .swiper-pagination-bullet-active,
+.testimonial-section .swiper-pagination-bullet-active {
   background-color: #000 !important;
   opacity: 1 !important;
 }
@@ -426,6 +427,12 @@ body {
   top: -17px;
   left: 25px;
   opacity: 0.8;
+}
+.testimonial-section .swiper-container {
+  height: 290px;
+}
+.testimonial-section .swiper-container .testimonial-card {
+  height: 230px;
 }
 
 /* BLOGS SECTION */

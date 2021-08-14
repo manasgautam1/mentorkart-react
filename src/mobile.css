@@ -8,8 +8,8 @@
     min-height: 8vh;
   }
   .brand-img {
-    height: 55px !important;
-    width: 75px !important;
+    height: 50% !important;
+    max-width: 50% !important;
   }
   .navbar {
     padding-bottom: 0;
@@ -170,6 +170,7 @@
     margin-top: -1rem;
   }
   .join-section .join-card {
+    text-align: center;
     position: relative;
     margin-bottom: 2rem !important;
     border-radius: 20px;
@@ -236,16 +237,18 @@
     margin-top: -1rem;
   }
   .footer {
+    padding: 2rem 1rem !important;
     text-align: center;
     margin-bottom: 0rem !important;
+  }
+  .copyright {
+    padding-top: 2rem;
   }
   .footer .img {
     padding: 0.5rem;
   }
-
   .footer .img img {
-    width: 40px;
-    height: 40px;
+    width: 50% !important;
   }
   .footer .left p {
     margin-top: 65px;
