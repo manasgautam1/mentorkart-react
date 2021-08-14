@@ -8,6 +8,9 @@
   .my-navbar {
     height: 9vh;
   }
+  .facility {
+    transform: scale(0.85);
+  }
   .showcase-content h3 {
     font-size: 2.25rem;
     line-height: 3rem;
