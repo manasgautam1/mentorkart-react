@@ -2,6 +2,7 @@
   .navbar img {
     max-width: 80%;
   }
+
   .showcase-content .showcase-form {
     width: 70%;
   }
@@ -9,7 +10,7 @@
     min-width: 290px;
   }
   .my-navbar {
-    height: 9vh;
+    min-height: 9vh;
   }
   .facilities {
     margin-top: 0.5rem !important;
@@ -51,7 +52,11 @@
   .blogs-section .blogs-container .main-img {
     height: 200px;
   }
-
+  @media (max-width: 1200px) {
+    .showcase-content .showcase-form {
+      width: 80%;
+    }
+  }
   @media (min-width: 1050px) {
     .container,
     .container-lg,
