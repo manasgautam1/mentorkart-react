@@ -6,6 +6,8 @@
     top: 0;
     left: 0;
     min-height: 8vh;
+    z-index: 500;
+    padding: 0.25rem 0;
   }
   .brand-img {
     height: 50% !important;
@@ -13,7 +15,8 @@
   }
   .navbar {
     background-color: #000;
-    padding-bottom: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .navbar-toggler-icon {
     color: #fff;
@@ -22,9 +25,9 @@
     height: 80%;
     width: 80%;
   }
-  .navbar-link {
+  /* .navbar-link {
     border-bottom: 1px solid #b5b5b5;
-  }
+  } */
   .showcase .swiper-container {
     height: 120%;
   }
